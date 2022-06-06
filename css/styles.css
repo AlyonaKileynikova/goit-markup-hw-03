@@ -373,6 +373,7 @@ img {
 .filter-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 }
 
 .filter-title {
@@ -424,6 +425,7 @@ img {
 }
 
 .project-title {
+    margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -439,13 +441,17 @@ img {
     color: #757575;
 }
 
-/* .signature {
+.signature {
     padding: 20px 24px;
-    border-left: 5px #212121;
-    border-right: 5px #212121;
-    border-bottom: 5px #212121;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.card-link {
+
 }
 
 .portfolio-card {
-
-} */
+    display: block;
+}
