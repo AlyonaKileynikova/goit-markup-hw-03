@@ -127,17 +127,17 @@ img {
     cursor: pointer;
 }
 
-.tel {
+.top-tel {
     min-width: 122px;
     margin-right: 15px;
 }
 
-.mail {
+.top-mail {
     margin-right: 50px;
     margin-left: auto;
 }
 
-.mail, .tel {
+.top-mail, .top-tel {
     display: block;
     color: var(--main-text-color);
     font-weight: 500;
@@ -146,13 +146,13 @@ img {
     letter-spacing: 0.02em;
 }
 
-.mail:hover,
-.mail:focus {
+.top-mail:hover,
+.top-mail:focus {
     color: var(--accent-color);
 }
 
-.tel:hover,
-.tel:focus {
+.top-tel:hover,
+.top-tel:focus {
     color: var(--accent-color);
 }
 
@@ -382,10 +382,20 @@ img {
     color: rgba(255, 255, 255, 0.6);;
 }
 
-.mail .tel:hover,
-.mail .tel:focus {
+.mail:hover,
+.mail:focus {
     color: var(--accent-color);
 }
+
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+/* .mail .tel:hover,
+.mail .tel:focus {
+    color: var(--accent-color);
+} */
 
 /* --------- Страница Портфолио -------- */
 
